@@ -1,0 +1,31 @@
+@import url('./variable.css');
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 601px) {
+
+}
+
+.setting {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content:space-evenly
+}
+
+.setting .setTax,
+.setting .value {
+    display: flex;
+    flex-direction: row;
+}
+.setting .setTax {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.setting .value input{
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+}

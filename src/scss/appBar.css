@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 601px) {
+
+}
+.appBar {
+    grid-area: appBar;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+.nameApp {
+    font-size: 20px;
+}
+.navigations {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.navigations .nav {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgb(180, 89, 28);
+    width: 80px;
+    border-radius: 5px;
+}

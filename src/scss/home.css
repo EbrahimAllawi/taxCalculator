@@ -1,0 +1,62 @@
+@import url('./variable.css');
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 601px) {
+
+}
+
+.home {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 54px);
+    display: grid;
+    grid-template-areas: 
+    'billDetails'
+    'numPad'
+    ;
+    grid-template-rows: 20% 80%;
+}
+.home .billDetails {
+    grid-area: billDetails;
+
+}
+.billDetails .details {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+}
+.billDetails .total {
+    font-size: 18px;
+    font-weight: bold;
+}
+.billDetails .subTotal {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main);
+}
+.home .numPad {
+    grid-area: numPad;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: calc(150px + 35px); */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: end;
+    flex-wrap: wrap;
+
+}
+.numPad .number {
+    background-color: var(--secound);
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
