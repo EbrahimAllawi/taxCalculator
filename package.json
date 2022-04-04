@@ -1,6 +1,6 @@
 {
   "name": "tax-calculator",
-  "homepage": "http://ebrahimallawi.github.io/tax-calculator",
+  "homepage": "http://ebrahimallawi.github.io/taxCalculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
